@@ -1,7 +1,7 @@
 -- CreateTable
 CREATE TABLE "deliveryman" (
     "id" TEXT NOT NULL,
-    "usarname" TEXT NOT NULL,
+    "username" TEXT NOT NULL,
     "password" TEXT NOT NULL
 );
 
@@ -9,4 +9,4 @@ CREATE TABLE "deliveryman" (
 CREATE UNIQUE INDEX "deliveryman_id_key" ON "deliveryman"("id");
 
 -- CreateIndex
-CREATE UNIQUE INDEX "deliveryman_usarname_key" ON "deliveryman"("usarname");
+CREATE UNIQUE INDEX "deliveryman_username_key" ON "deliveryman"("username");

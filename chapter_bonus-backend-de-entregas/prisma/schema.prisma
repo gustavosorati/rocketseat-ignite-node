@@ -9,7 +9,7 @@ datasource db {
 
 model Deliveryman {
   id         String       @unique @default(uuid())
-  usarname   String       @unique
+  username   String       @unique
   password   String
   Deliveries Deliveries[]
 
@@ -18,7 +18,7 @@ model Deliveryman {
 
 model Clients {
   id         String       @unique @default(uuid())
-  usarname   String       @unique
+  username   String       @unique
   password   String
   Deliveries Deliveries[]
 
