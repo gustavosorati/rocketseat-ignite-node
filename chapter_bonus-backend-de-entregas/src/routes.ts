@@ -12,4 +12,6 @@ routes.post("/client/", createClientController.handle);
 
 routes.post("/authenticate/", authenticateClientController.handle);
 
+
+
 export { routes };
