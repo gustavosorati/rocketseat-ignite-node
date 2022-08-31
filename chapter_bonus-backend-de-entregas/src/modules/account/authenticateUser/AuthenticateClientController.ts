@@ -12,8 +12,6 @@ export class AuthenticateClientController {
             password
         });
         
-        console.log(result)
-
-        return response.json(result)
+        return response.json(result);
     }
 }
