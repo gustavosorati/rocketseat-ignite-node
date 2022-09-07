@@ -1,5 +1,3 @@
-import { hash } from "bcrypt";
-import { response } from "express";
 import { prisma } from "../../../../database/prismaClient";
 
 interface ICreateDelivery {
