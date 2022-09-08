@@ -23,6 +23,7 @@ export async function ensureAuthenticateDeliveryman(request: Request, response: 
 
         request.id_deliveryman = sub;
 
+        console.log(sub)
         return next();
 
     } catch(err){
